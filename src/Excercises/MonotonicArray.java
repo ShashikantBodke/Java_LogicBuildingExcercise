@@ -14,8 +14,12 @@ public class MonotonicArray {
             } else if (input[i] < input[i - 1]) {
                 increasing = false;
             }
-            System.out.println(increasing || decreasing);
-
+        }
+        // System.out.println(increasing || decreasing);
+        if(increasing || decreasing){
+            System.out.println("The array is monotonic");
+        } else {
+            System.out.println("The array is not monotonic");
         }
     }
 
