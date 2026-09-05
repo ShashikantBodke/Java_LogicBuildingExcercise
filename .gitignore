@@ -3,7 +3,8 @@
 /.settings/
 .classpath
 .project
-
+LogicBuildingExcercise_Shashi.iml
+bin
 
 # Compiled class file
 *.class
