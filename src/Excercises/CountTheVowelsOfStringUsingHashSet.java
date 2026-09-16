@@ -8,10 +8,8 @@ public class CountTheVowelsOfStringUsingHashSet {
 	public static void main(String[] args) {
 		
 		String input = "Hello World";
-		String vowelString = "aeiouAEIOU";
 		int count =0;
-		
-		
+
 		Set<Character> vowelSet = new HashSet<Character>();
 		
 		vowelSet.add('a');
@@ -23,7 +21,7 @@ public class CountTheVowelsOfStringUsingHashSet {
 		vowelSet.add('E');
 		vowelSet.add('I');
 		vowelSet.add('O');
-		vowelSet.add('O');
+		vowelSet.add('U');
 		
 		for(int index=0; index<=input.length()-1;index++) { //Traversing the string
 			if(vowelSet.contains(input.charAt(index))){

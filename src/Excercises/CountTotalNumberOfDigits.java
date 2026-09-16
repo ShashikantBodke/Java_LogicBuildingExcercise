@@ -6,7 +6,7 @@ public class CountTotalNumberOfDigits {
         int number = 1234;
         int count = 0;
 
-        while (number != 0) {
+        while (number != 0) { // loop until the number becomes 0
             number /= 10;
             count++;
         }
