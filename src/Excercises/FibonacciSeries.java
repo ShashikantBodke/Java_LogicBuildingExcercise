@@ -3,7 +3,7 @@ package Excercises;
 public class FibonacciSeries {
 
     public static void main(String[] args) {
-        int n = 1; // Number of terms in the Fibonacci series
+        int n = 10; // Number of terms in the Fibonacci series
         int first = 0;
         int second = 1;
         int next;
