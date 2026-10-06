@@ -3,7 +3,7 @@ package Excercises;
 public class FindSecondLargestNumberInArray {
 
 	public static void main(String[] args) {
-		int numbers[]= {10,20,30,40,60,75};
+		int[] numbers= {10,20,30,40,60,75};
 		
 		int largest= Integer.MIN_VALUE;
 		int secondLargestNumber=Integer.MIN_VALUE;	

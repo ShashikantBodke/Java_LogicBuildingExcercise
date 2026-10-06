@@ -7,7 +7,7 @@ public class CheckIfNumberIsPalindromeOrNotUsingStringBuilder {
 			
 		//convert number to string
 		String orgNumInString = Integer.toString(number);
-		String orgNumInString2 = number + " ";
+		//	String orgNumInString2 = number + " ";
 		
 		//reverse the string using StringBuilder
 		StringBuilder reverseStringBuilder = new StringBuilder(orgNumInString);
