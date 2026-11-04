@@ -2,6 +2,10 @@ package Excercises;
 
 public class EncodeTheString {
     public static void main(String[] args) {
+        //**** IMP ****
+        // This is a simple implementation of Run Length Encoding (RLE) algorithm.
+        // It compresses a string by replacing consecutive repeated characters
+        // with the character followed by the count of repetitions.
 
         String input = "aaabbbcccdde";
         StringBuilder output = new StringBuilder();

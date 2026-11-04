@@ -2,6 +2,10 @@ package Excercises;
 
 public class FindMaxProductOfTripletsSol2 {
     public static void main(String[] args) {
+        // This program finds the maximum product of any triplet in an array of integers.
+        // The logic is based on the fact that the maximum product can be obtained either by multiplying
+        // the three largest numbers or by multiplying the two smallest (most negative) numbers with the
+        // largest number. This is because two negative numbers multiplied together yield a positive product.
         //Max Product of the Triplet in the Array
         //Use the same logic which we used to find second-largest number in an Array
         int[] numbers={7,5,3,2,-10,-20};
