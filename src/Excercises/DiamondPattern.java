@@ -12,7 +12,6 @@ public class DiamondPattern {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
-
             // Print stars in odd numbers: 1, 3, 5, 7, 9
             for (int k = 1; k <= 2 * i - 1; k++) {
                 System.out.print("*");
